@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom font setup */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+html {
+  @apply font-inter bg-white text-black;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Optional - Default container settings for responsive layout */
+.container {
+  @apply mx-auto px-4;
+}
+
+/* Typography Example */
+h1 {
+  @apply text-h1 font-medium;
+}
+h2 {
+  @apply text-h2 font-medium;
+}
+h3 {
+  @apply text-h3 font-medium;
+}
+p {
+  @apply text-bodyMD font-light;
+}
